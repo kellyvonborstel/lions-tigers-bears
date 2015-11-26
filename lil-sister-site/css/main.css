@@ -1,0 +1,69 @@
+.glyphicon-heart-empty {
+  font-weight: bold;
+}
+.navbar-inverse .navbar-brand {
+  font-size: 1.9em;
+  padding: 30px 0 50px 30px;
+  letter-spacing: .02em;
+  font-weight: bold;
+}
+.navbar-brand span {
+  font-weight: normal;
+}
+#top-nav {
+  padding-right: 25px;
+  padding-top: 20px;
+}
+.gallery-padding {
+  padding: 15px 15px 0;
+}
+.well {
+  border-radius: 15px;
+}
+.well img { 
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.well h4 {
+  text-align: center;
+  margin: 0 auto;
+  color: #305f5b;
+  font-size: 1.2em;
+}
+h3 {
+  font-size: 1.9em;
+  color: #1a5c9a;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+hr {
+  border-bottom: 1px solid #ccc;
+}
+.container-fluid {
+  margin-top: 20px;
+  background-color: #6698c6;
+}
+#form-container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+  height: 650px;
+  margin: 40px auto 0;
+  padding: 30px 50px;
+}
+@media screen and (max-width: 767px) {
+  .navbar-inverse .navbar-brand {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: -20px;
+  }
+  #top-nav {
+    width: 100%;
+    display: block;
+    clear: both;
+    text-align: center;
+    padding-right: 0;
+  }
+}

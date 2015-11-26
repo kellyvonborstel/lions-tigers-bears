@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lions + Tigers + Bears</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Lions <span>+</span> Tigers <span>+</span> Bears</a>
+      <ul class="nav navbar-nav navbar-right" id="top-nav">
+        <li><a href="#comment-form"><i class="glyphicon glyphicon-check"></i>&nbsp; Comment Form</a></li>
+        <li><a href="lil-sister-site/index.html"><i class="glyphicon glyphicon-heart-empty"></i>&nbsp; Lil&#8217; Sister Site</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container clearfix">
+    <div class="row text-center">
+      <div class="col-md-4 col-sm-6 col-xs-12 gallery-padding">
+        <div class="well">
+          <img class="img-responsive img-rounded" src='images/malayan-tiger.jpg'>
+          <h4>Malayan Tiger</h4>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 gallery-padding">
+        <div class="well">
+          <img class="img-responsive img-rounded" src='images/african-lion-cub.jpg'>
+          <h4>African Lion</h4>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 gallery-padding">
+        <div class="well">
+          <img class="img-responsive img-rounded" src='images/panda-bear.jpg'>
+          <h4>Panda Bear</h4>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 gallery-padding">
+        <div class="well">
+          <img class="img-responsive img-rounded" src='images/grizzly-bear.jpg'>
+          <h4>Grizzly Bear</h4>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 gallery-padding">
+        <div class="well">
+          <img class="img-responsive img-rounded" src='images/indo-chinese-tiger-cub.jpg'>
+          <h4>Indo-Chinese Tiger</h4>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 gallery-padding">
+        <div class="well">
+          <img class="img-responsive img-rounded" src='images/mountain-lion.jpg'>
+          <h4>Mountain Lion</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix container-fluid" id="comment-form">
+    <div class="row">
+      <div class="column-xs-12" id="form-container">
+        <h3>Leave a comment &nbsp;<i class="glyphicon glyphicon-pencil"></i></h3>
+        <hr>
+        <form action="http://formspree.io/kellyvonborstel@gmail.com" method="POST" class="form-horizontal col-xs-12">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="preference">Which do you prefer?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="preference" id="lions" value="lions">
+                Lions
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="preference" id="tigers" value="tigers">
+                Tigers
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="preference" id="bears" value="bears">
+                Bears
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" rows="5" class="form-control"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
