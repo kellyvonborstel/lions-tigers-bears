@@ -1,4 +1,4 @@
 # lions-tigers-bears
-The purpose of this project was to practice using bootstrap. **Please view the project by clicking link below.**
+Simple responsive photo gallery using Bootstrap
 
 ##[http://kellyvonborstel.github.io/lions-tigers-bears/](http://kellyvonborstel.github.io/lions-tigers-bears/)
